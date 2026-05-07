@@ -130,6 +130,7 @@ Create a `.env` file:
 ```env
 OPENAI_API_KEY=your_api_key
 GEMINI_API_KEY=your_api_key
+HF_API_TOKEN=your_huggingface_api_token
 ```
 
 ---
