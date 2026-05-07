@@ -41,6 +41,46 @@ The system allows users to upload or provide a GitHub repository URL and ask nat
 
 ---
 
+## 📂 Project Structure
+
+```bash
+Pravallika-main/
+│
+├── Intelligent-Github-Repo-Analyzer/
+│   │
+│   ├── repo_cache/
+│   ├── chroma_db/
+│   ├── .venv/
+│   │
+│   ├── .env
+│   ├── .gitignore
+│   ├── requirements.txt
+│   ├── README.md
+│   │
+│   ├── main.py
+│   ├── repo_reader.py
+│   ├── questions.py
+│   ├── utility.py
+│   ├── graph_utils.py
+│   ├── cache_manager.py
+│   ├── llm_client.py
+│   ├── gemini_llm_client.py
+│   ├── huggingface_llm_client.py
+│   ├── ui_styling.py
+│   │
+│   ├── test_ask_question.py
+│   ├── test_cache.py
+│   ├── test_consensus.py
+│   ├── test_final_integration.py
+│   ├── test_groq.py
+│   ├── test_integration.py
+│   └── test_triple_llm_consensus.py
+│
+└── chroma_db/
+```
+
+---
+
 ## ⚙️ Installation
 
 ### Clone Repository
@@ -122,6 +162,13 @@ streamlit run app.py
 - Cloud deployment
 - Docker support
 - Repository analytics dashboard
+
+---
+
+## 👩‍💻 Author
+
+U. Naga Pravallika  
+B.Tech – AIML
 
 ---
 
