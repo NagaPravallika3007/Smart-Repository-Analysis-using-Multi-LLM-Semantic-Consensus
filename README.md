@@ -1,162 +1,159 @@
-# Smart-Repository-Analysis-using-Multi-LLM-Semantic-Consensus
-Smart Repository Analysis using Multi-LLM Semantic Consensus
-📌 Overview
+# Smart Repository Analysis using Multi-LLM Semantic Consensus
 
-Smart Repository Analysis using Multi-LLM Semantic Consensus is an AI-powered GitHub repository understanding system that analyzes source code using multiple Large Language Models (LLMs) and generates high-quality answers through semantic consensus reasoning.
+## 📌 Overview
 
-The system allows users to upload or provide a GitHub repository URL and ask natural language questions about the codebase. It combines Retrieval-Augmented Generation (RAG), semantic search, vector embeddings, and multi-model AI reasoning to improve response accuracy and reduce hallucinations.
+Smart Repository Analysis using Multi-LLM Semantic Consensus is an AI-powered GitHub repository understanding system that analyzes source code using multiple Large Language Models (LLMs) and generates intelligent responses using semantic consensus reasoning.
 
-This project helps developers, students, and teams quickly understand unfamiliar repositories without manually reading thousands of lines of code.
+The system allows users to upload or provide a GitHub repository URL and ask natural language questions about the codebase.
 
-🚀 Features
+---
 
-🔍 GitHub Repository Analysis
-🧠 Multi-LLM Semantic Consensus
-📚 Retrieval-Augmented Generation (RAG)
-🔎 Semantic Code Search
-💬 Natural Language Repository Q&A
-⚡ Streamlit Interactive UI
-🗂️ Repository Caching System
-📦 Vector Database Integration
-🧩 Code Chunking & Embeddings
-🤖 AI-Powered Code Understanding
-🌐 GitHub URL Processing
-📊 Intelligent Context Retrieval
+## 🚀 Features
 
-🏗️ System Architecture
-GitHub Repository
-        ↓
-Repository Cloning
-        ↓
-Code Extraction & Chunking
-        ↓
-Embedding Generation
-        ↓
-Vector Database Storage
-        ↓
-Semantic Retrieval
-        ↓
-Multiple LLM Processing
-        ↓
-Semantic Consensus Engine
-        ↓
-Final Intelligent Response
+- GitHub Repository Analysis
+- Multi-LLM Semantic Consensus
+- Retrieval-Augmented Generation (RAG)
+- Semantic Code Search
+- Natural Language Repository Q&A
+- Streamlit Interactive UI
+- Repository Caching
+- Vector Database Integration
 
-🛠️ Tech Stack
+---
 
-Frontend
-Streamlit
+## 🛠️ Tech Stack
 
-Backend
-Python
+### Frontend
+- Streamlit
 
-AI / ML
-LangChain
-OpenAI API
-Gemini API
-Ollama
-Sentence Transformers
-Vector Database
-ChromaDB / FAISS
-Other Tools
-GitHub API
-dotenv
-GitPython
+### Backend
+- Python
 
-⚙️ Installation
-1️⃣ Clone the Repository
+### AI/ML
+- LangChain
+- OpenAI
+- Gemini
+- Ollama
+- Sentence Transformers
+
+### Vector Database
+- ChromaDB / FAISS
+
+---
+
+## 📂 Project Structure
+
+```bash
+Smart-Repository-Analysis/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .env
+│
+├── src/
+├── data/
+├── cache/
+└── chroma_db/
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
 git clone https://github.com/NagaPravallika3007/Smart-Repository-Analysis-using-Multi-LLM-Semantic-Consensus.git
-2️⃣ Navigate to the Project Directory
+```
+
+### Navigate to Project
+
+```bash
 cd Smart-Repository-Analysis-using-Multi-LLM-Semantic-Consensus
-3️⃣ Create Virtual Environment
-Windows
+```
+
+### Create Virtual Environment
+
+```bash
 python -m venv .venv
+```
 
-Activate environment:
+### Activate Environment
 
+#### Windows
+
+```bash
 .venv\Scripts\activate
-Linux / Mac
-python3 -m venv .venv
+```
+
+#### Linux/Mac
+
+```bash
 source .venv/bin/activate
-📦 Install Dependencies
+```
+
+### Install Dependencies
+
+```bash
 pip install -r requirements.txt
-🔑 Environment Variables
+```
 
-Create a .env file in the root directory.
+---
 
-OPENAI_API_KEY=your_openai_api_key
-GEMINI_API_KEY=your_gemini_api_key
-▶️ Run the Application
+## 🔑 Environment Variables
+
+Create a `.env` file:
+
+```env
+OPENAI_API_KEY=your_api_key
+GEMINI_API_KEY=your_api_key
+```
+
+---
+
+## ▶️ Run the Application
+
+```bash
 streamlit run app.py
-💡 How It Works
-User enters a GitHub repository URL.
-Repository is cloned locally.
-Source code files are extracted and chunked.
-Embeddings are generated for code chunks.
-Embeddings are stored in a vector database.
-User asks questions about the repository.
-Relevant context is retrieved using semantic search.
-Multiple LLMs analyze the retrieved context.
-Semantic consensus engine combines responses.
-Final intelligent answer is displayed to the user.
-🧠 Semantic Consensus Mechanism
+```
 
-The project uses multiple LLMs to generate different perspectives for the same query.
+---
 
-The semantic consensus engine:
+## 💡 How It Works
 
-compares responses,
-evaluates semantic similarity,
-identifies the most accurate insights,
-and generates a final refined response.
+1. User enters GitHub repository URL
+2. Repository gets cloned
+3. Source code is chunked
+4. Embeddings are generated
+5. Vector database stores embeddings
+6. Semantic retrieval fetches relevant context
+7. Multiple LLMs analyze context
+8. Semantic consensus generates final response
 
-This improves:
+---
 
-Answer reliability
-Context understanding
-Hallucination reduction
-Response quality
-📊 Example Use Cases
-Understanding unfamiliar GitHub repositories
-AI-powered codebase documentation
-Developer onboarding assistance
-Repository summarization
-Bug investigation support
-Architecture understanding
-Code explanation and navigation
-🎯 Future Enhancements
-🔄 Real-time repository monitoring
-👥 Multi-agent AI collaboration
-📈 Repository analytics dashboard
-🧾 Automatic documentation generation
-🐳 Docker deployment
-☁️ Cloud hosting support
-🔐 Authentication system
-🗣️ Voice-based repository interaction
-📸 Screenshots
+## 🎯 Future Enhancements
 
-Add application screenshots here.
+- Multi-agent AI collaboration
+- Automatic documentation generation
+- Cloud deployment
+- Docker support
+- Repository analytics dashboard
 
-assets/screenshots/
-👩‍💻 Author
+---
 
-U. Naga Pravallika
-B.Tech – Artificial Intelligence & Machine Learning
+## 👩‍💻 Author
 
-📜 License
+U. Naga Pravallika  
+B.Tech – AIML
 
-This project is developed for educational and research purposes.
+---
 
-⭐ Acknowledgements
-OpenAI
-Google Gemini
-LangChain
-Streamlit
-ChromaDB
-Hugging Face
-GitHub API
-📬 Contact
+## ⭐ Acknowledgements
 
-For suggestions or collaboration:
-
-GitHub: https://github.com/NagaPravallika3007
+- OpenAI
+- LangChain
+- Streamlit
+- ChromaDB
+- Hugging Face
