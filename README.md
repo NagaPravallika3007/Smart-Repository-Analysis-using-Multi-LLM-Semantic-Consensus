@@ -37,7 +37,7 @@ The system allows users to upload or provide a GitHub repository URL and ask nat
 - Sentence Transformers
 
 ### Vector Database
-- ChromaDB / FAISS
+- ChromaDB
 
 ---
 
@@ -163,13 +163,6 @@ streamlit run app.py
 - Cloud deployment
 - Docker support
 - Repository analytics dashboard
-
----
-
-## 👩‍💻 Author
-
-U. Naga Pravallika  
-B.Tech – AIML
 
 ---
 
