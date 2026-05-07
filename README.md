@@ -9,6 +9,7 @@ The system allows users to upload or provide a GitHub repository URL and ask nat
 This project helps developers, students, and teams quickly understand unfamiliar repositories without manually reading thousands of lines of code.
 
 🚀 Features
+
 🔍 GitHub Repository Analysis
 🧠 Multi-LLM Semantic Consensus
 📚 Retrieval-Augmented Generation (RAG)
@@ -21,6 +22,7 @@ This project helps developers, students, and teams quickly understand unfamiliar
 🤖 AI-Powered Code Understanding
 🌐 GitHub URL Processing
 📊 Intelligent Context Retrieval
+
 🏗️ System Architecture
 GitHub Repository
         ↓
@@ -39,11 +41,15 @@ Multiple LLM Processing
 Semantic Consensus Engine
         ↓
 Final Intelligent Response
+
 🛠️ Tech Stack
+
 Frontend
 Streamlit
+
 Backend
 Python
+
 AI / ML
 LangChain
 OpenAI API
