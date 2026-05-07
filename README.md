@@ -41,24 +41,6 @@ The system allows users to upload or provide a GitHub repository URL and ask nat
 
 ---
 
-## 📂 Project Structure
-
-```bash
-Smart-Repository-Analysis/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── .env
-│
-├── src/
-├── data/
-├── cache/
-└── chroma_db/
-```
-
----
-
 ## ⚙️ Installation
 
 ### Clone Repository
@@ -140,13 +122,6 @@ streamlit run app.py
 - Cloud deployment
 - Docker support
 - Repository analytics dashboard
-
----
-
-## 👩‍💻 Author
-
-U. Naga Pravallika  
-B.Tech – AIML
 
 ---
 
